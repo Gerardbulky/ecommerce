@@ -37,14 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites', # 3rdly add django-allauth contribs start
+    'django.contrib.sites',  # 3rdly add django-allauth contribs start
     'allauth',
     'allauth.account',
     'allauth.socialaccount',  # end
     'home',
     'products',
-    'bag',   
-]
+    'bag',
+    'checkout',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
