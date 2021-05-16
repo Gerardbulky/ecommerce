@@ -50,7 +50,7 @@ INSTALLED_APPS = [
 
     # others
     'crispy_forms',
-    ]
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -107,13 +107,15 @@ SITE_ID = 1         # 4thly site_id
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # Emails confirmat settx
 
+
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email' # allows auth using usernam/email
 ACCOUNT_EMAIL_REQUIRED = True                # email required to register 4 the site
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'    # verifying if users are using real email
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True      # comfirmation to avoid user typo error
-ACCOUNT_USERNAME_MIN_LENGTH = 4            # min username lenth to 4 
+ACCOUNT_USERNAME_MIN_LENGTH = 4            # min username lenth to 4
 LOGIN_URL = '/accounts/login/'         # login url
 LOGIN_REDIRECT_URL = '/'               # redirect url after login
+
 
 WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
