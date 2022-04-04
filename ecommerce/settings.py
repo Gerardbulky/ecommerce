@@ -26,7 +26,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
 
 
 ALLOWED_HOSTS = ['boss-ecommerce.herokuapp.com', 'localhost']
@@ -108,6 +107,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1         # 4thly site_id
+
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email' # allows auth using usernam/email
 ACCOUNT_EMAIL_REQUIRED = True                # email required to register 4 the site
