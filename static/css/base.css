@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/ecom2.jpg') no-repeat center center;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center;
     background-size: cover;
     /* height: calc(100vh - 164px); */
     height: calc(100vh - 44px);
