@@ -311,7 +311,8 @@
 
         
             <!-- Footer-->
-            <footer class="footer text-center" style="background-color: #2C3E50; color: #ffffff;">
+            {% block footer %}
+            <footer class="footer text-center mt-5" style="background-color: #2C3E50; color: #ffffff;">
                 <div class="container pt-5 pb-5">
                     <div class="row">
                         <!-- Footer Location-->
@@ -342,11 +343,12 @@
                     </div>
                 </div>
             </footer>
+            
             <!-- Copyright Section-->
             <div class="copyright py-4 text-center text-white" style="background-color: black;">
                 <div class="container"><small>Copyright &copy; BossmansBoutique 2022</small></div>
             </div>
-        
+        {% endblock %}
 
     </body>
 </html>
