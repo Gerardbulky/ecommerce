@@ -325,6 +325,11 @@ input[name='q']::placeholder {
     .col-xs-6{
         width: 50%;
     }
+    .row {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+    }
 
     body {
     background: url('/media/ecom2.jpg') no-repeat center center;
@@ -333,5 +338,4 @@ input[name='q']::placeholder {
     height: calc(100vh - 44px);
     color: #555;
     font-family: 'Lato';
-}
 }
