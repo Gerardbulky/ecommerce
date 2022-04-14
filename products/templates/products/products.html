@@ -58,7 +58,7 @@
                 <div class="row">
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 d-none d-sm-block">
-                            <div class="card h-100 border-0" >
+                            <div class="card h-100 border-0" style="margin-left: 50px; margin-right: 50px;" >
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -105,8 +105,8 @@
                         </div>
 
                         <!---------------for xtra smaller screen sizes only----------------------->
-                        <div class="col-xs-6 d-block d-sm-none" style="margin-bottom: 15px;">
-                            <div class="card h-10" style="margin-top: 5px; margin-left: 5px; margin-right: 5px; height: 100%;">
+                        <div class="col-xs-6 d-block d-sm-none" style="padding: 10px; margin-bottom: 15px;">
+                            <div class="card h-10 border-2" style="margin-top: 5px;  height: 100%;">
                                 {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
                                         <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
