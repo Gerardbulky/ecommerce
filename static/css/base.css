@@ -334,7 +334,12 @@ input[name='q']::placeholder {
     color: #555;
     font-family: 'Lato';
 }
-.shop-by-category {
-    margin-top: -70px
-}
+    .shop-by-category {
+        margin-top: -70px
+    }
+
+    .product-container .card {
+    max-width:100%;
+    float:left;
+    }
 }
