@@ -8,4 +8,5 @@
 ### The landing page is divided into The Navigation section, The Body and The Footer.
 
  **Navigation section contains,**
+ - ***Search bar*** where users can search products from the list of products 
 
