@@ -33,6 +33,15 @@
 - **JQuery**
 - **Heroku**
  
+# **Deployment**
+The project was deployed to GitHub Pages using the following steps...
 
+- Log in to GitHub and locate the [GitHub Repository](https://github.com/gerardambe/ecommerce)
+- At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+- Scroll down the Settings page until you locate the "GitHub Pages" Section.
+- Under "Source", click the dropdown called "None" and select "Master Branch".
+- The page will automatically refresh.
+- Scroll back down through the page to locate the now published site [link](https://gerardambe.github.io/ecommerce/) in the "GitHub Pages" section.
+- You can site on GitHub
 
 
