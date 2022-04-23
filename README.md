@@ -19,6 +19,19 @@
  - Below the background image is are differernt categories of products the users can shop from.
  
  **The Footer**
+ - The footer contains the Address, Social media icons to the different social media's and a Shop Now link leading back to the landing page.
+ - Also contained in the footer is the copyright for the website.
+
+# **Technology Used**
+- **CSS and HTML**
+- **Python**
+- **Javascript**
+- **Django**
+- **MongoDB**
+- **bootstrap**
+- **AWS**
+- **JQuery**
+- **Heroku**
  
 
 
