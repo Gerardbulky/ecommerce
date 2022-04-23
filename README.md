@@ -7,5 +7,5 @@
 
 ### The landing page is divided into The Navigation section, The Body and The Footer.
 
- **Navigation section contains,
+ **Navigation section contains,**
 
