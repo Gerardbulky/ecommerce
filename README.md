@@ -8,10 +8,18 @@
 ### The landing page is divided into The Navigation section, The Body and The Footer.
 
  **Navigation section contains,**
- - ***Search bar,*** where users can search products from the list of products.
+ - ***Search bar,*** where users can sort and search a list of available products, sort a specific category of products, search a product by name or description and can easily see all search results.
  - ***My Account,*** Where users can Register/signIn into their accounts, recover their forgotten password, recieve an email confirmation after registering for an account and have a personalized account.
  - ***Bag,*** Where users can see the sum total of their purchase.
- - ***Navigation Menu,*** Where users can view a list of products, view individual products, quickly identify deals, clearance items and special offers,
+ - ***Navigation Menu,*** Where users can view a list of products, view individual products, quickly identify deals, clearance items and special offers.
+ - There is a free delivery Threshold navigation bar, for free delivery on orders over 50$
+ 
+ **The Body**
+ - There is a background image which contains the SHOP NOW button. The SHOP NOW button displays all the products in the product list.
+ - Below the background image is are differernt categories of products the users can shop from.
+ 
+ **The Footer**
+ 
 
 
 
